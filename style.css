@@ -78,6 +78,10 @@ img {
     width: 100%;
 }
 
+#sidebar a {
+    color:#000000;
+}
+
 .dropdown-container {
     list-style: none;
     display: none;
