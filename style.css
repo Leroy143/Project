@@ -1,0 +1,181 @@
+/* basic styles */
+body {
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+li a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+h1, h3, h5, li, p {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* header */
+#head .nav-link, 
+#head .dropdown-menu {
+    font-family: Poppins, sans-serif;
+    letter-spacing: 2px;
+    font-size: 12px
+}
+
+#head, 
+#foot, 
+#head .dropdown-menu {
+    background-color: #36454f;
+}
+
+#head a {
+    color: #D4DEDD;
+}
+
+#heading {
+    color: #23C5DC !important;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.navbar .nav-item .dropdown-menu{ 
+    display: none; 
+    margin-top:0; 
+} 
+
+.navbar .nav-item:hover .dropdown-menu { 
+    display: block; 
+}
+
+.search-bar button {
+    background: #23C5DC;
+}
+
+
+/* sidebar navigation */
+.nav-link:hover, li a:hover {
+    background: white !important;
+    color: #23C5DC !important;
+}
+
+#sidebar {
+    width: 100%;
+}
+
+.dropdown-container {
+    list-style: none;
+    display: none;
+    background: #ffffff;
+}
+
+.sidecard img {
+    height: 100px;
+}
+
+
+/* cards */
+.card-title {
+    font-weight: bold;
+    text-align: left;
+}
+
+.read-more {
+    color: #00aced;
+}
+
+.read-more:hover {
+ color: #8a3ab9;
+}
+
+
+/* carousel */
+.carousel .carousel-item {
+    height: 300px;
+}
+  
+.carousel-item img, 
+.carousel-item video {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+.carousel-caption h5, 
+.carousel-caption p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* footer styles */
+#foot-heading {
+    color: #23C5DC !important;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 30px;
+}
+
+#foot li, 
+#foot p {
+    color: aliceblue;
+}
+  
+.socialMedia a {
+    font-size: 26px;
+    margin: 0 10px 0 0;
+    color: #000000;
+    text-decoration: none;
+}
+
+.socialMedia a:hover {
+    background: none !important;
+}
+
+.socialMedia a.fa-twitter { 
+    color: #00aced !important;
+}
+.socialMedia a.fa-facebook { 
+    color: #3b5998 !important; 
+}
+.socialMedia a.fa-instagram { 
+    color: #8a3ab9 !important; 
+}
+
+
+/* media queries */
+@media (max-width: 992px) {
+    .search-bar {
+        width: 100%;
+    }
+
+    .nav {
+        justify-content: left !important;
+    }
+
+    .nav li {
+        width: 100%;
+        text-align: left;
+    }
+
+    .sidecard img {
+        height: auto;
+    }
+    
+}
